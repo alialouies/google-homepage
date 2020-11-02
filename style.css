@@ -17,6 +17,10 @@ li a {
     text-align: center;
 }
 
+.float-right {
+    float: right;
+}
+
 .nav li a {
     padding: 20px;
 }
@@ -27,12 +31,12 @@ section {
 
 img {
     height: 100px;
-    padding: 10px 0px 0px;
+    padding: 10px 0 0;
     margin-bottom: 30px;
        
 }
 
-.img, form .input, form div, div p {
+.img-wrapper, form .input-container, form div, div p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,6 +64,7 @@ button {
     font-weight: 900;
     color: #5F6368;
     margin: 30px 15px;
+    cursor: pointer;
 
 }
 
@@ -73,7 +78,7 @@ a:hover {
 
 .footer {
     position: fixed;
-    bottom: 0px;
+    bottom: 0;
     /* height: 80px; */
     width: 100%;
     background-color: #f2f2f2;
